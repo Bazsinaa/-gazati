@@ -1,3 +1,41 @@
 szótár bejárása
 for key, value in my_dict.items():
     print(key, value)
+
+lista elemei indexekkel
+for index, fruit in enumerate(fruits):
+    print(index, fruit)
+
+halmaz inicializálása
+empty_set = set()
+
+
+oop kiinduló helyze
+main
+def main() -> None:
+    megoldas: Megoldas = Megoldas("data.txt")  # Cseréld ki a data.txt fájlnevet a tényleges fájlnévre
+ 
+ 
+if __name__ == "__main__":
+    main()
+
+megoldás
+class Megoldás:
+    _lista: list[osztály] = []
+
+    def __init__(self, állomány_neve: str) -> None:
+            with open(állomány_neve, "r", encoding="utf-8") as file:
+                for sor in file.read().splitlines()[1:]:
+                    self.lista.append(osztály(sor))
+
+osztály
+    class Hegycsúcs:
+        _változó1: str
+        _változó2: str
+        _változó3: str
+
+    def __init__(self, adatsor: str) -> None:
+        _1, _2, _2 = adatsor.split(";")
+        self._változó1 = _1
+        self._változó2 = _2
+        self._változó3 = _3
