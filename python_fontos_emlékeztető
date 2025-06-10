@@ -2,12 +2,18 @@ szótár bejárása
 for key, value in my_dict.items():
     print(key, value)
 
+szótár inicializálása
+def statisztika(self) -> dict[str, int]:
+    kölcsönzések: dict[str, int] = {}
+
 lista elemei indexekkel
 for index, fruit in enumerate(fruits):
     print(index, fruit)
 
 halmaz inicializálása
 empty_set = set()
+
+
 
 
 oop kiinduló helyze
