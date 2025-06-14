@@ -8,4 +8,5 @@ lkkt
 lnko
 ha a 2 szám nem egyenlő, a nagyobbat kivonjuk a kisebből
 
-másodfokú egyenlet
+prímszám
+ciklus 1-től keresett szám+1-ig, megszámoljuk az osztók azámát
