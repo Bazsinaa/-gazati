@@ -29,10 +29,6 @@ megoldás
 class Megoldás:
     _lista: list[osztály] = []
 
-    def __init__(self, állomány_neve: str) -> None:
-            with open(állomány_neve, "r", encoding="utf-8") as file:
-                for sor in file.read().splitlines()[1:]:
-                    self.lista.append(osztály(sor))
 
 osztály
     class Hegycsúcs:
